@@ -1,32 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
-
-const upcomingEvents = [
-  {
-    id: 1,
-    title: "Taller de Cartografía Geológica",
-    date: "15 de Octubre, 2025",
-    location: "Sala de Clases A-302",
-    description:
-      "Taller práctico sobre técnicas de cartografía y mapeo geológico para estudiantes de primer año.",
-  },
-  {
-    id: 2,
-    title: "Salida de Campo - Cordillera de los Andes",
-    date: "22-24 de Octubre, 2025",
-    location: "Región Metropolitana",
-    description:
-      "Salida de campo de tres días para estudiar la geología de la zona central de Chile.",
-  },
-  {
-    id: 3,
-    title: "Seminario: Recursos Hídricos Subterráneos",
-    date: "5 de Noviembre, 2025",
-    location: "Auditorio Central",
-    description:
-      "Seminario especializado sobre gestión y evaluación de recursos hídricos subterráneos.",
-  },
-];
 
 export default function Home() {
   return (
@@ -88,65 +60,6 @@ export default function Home() {
                 priority
               />
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Eventos Próximos */}
-      <section className="bg-[#F2E3D5] py-16 md:py-20">
-        <div className="max-w-[980px] mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl md:text-3xl font-semibold text-[#3D2B1F] mb-10 text-center">
-            Eventos Próximos
-          </h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            {upcomingEvents.map((event) => (
-              <div
-                key={event.id}
-                className="bg-[#FBF6F1] rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow"
-              >
-                <div className="text-sm font-medium text-[#9A4D2D] mb-2">
-                  {event.date}
-                </div>
-                <h3 className="text-lg font-semibold text-[#3D2B1F] mb-2">
-                  {event.title}
-                </h3>
-                <p className="text-sm text-[#6B5344] mb-3">
-                  <span className="inline-flex items-center">
-                    <svg
-                      className="w-4 h-4 mr-1"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                      />
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                    </svg>
-                    {event.location}
-                  </span>
-                </p>
-                <p className="text-sm text-[#6B5344] leading-relaxed">
-                  {event.description}
-                </p>
-              </div>
-            ))}
-          </div>
-          <div className="text-center mt-10">
-            <Link
-              href="/nuestro-proposito"
-              className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-sm font-medium rounded-full text-white bg-[#9A4D2D] hover:bg-[#7A3D22] transition-colors"
-            >
-              Conoce más sobre nosotros
-            </Link>
           </div>
         </div>
       </section>
