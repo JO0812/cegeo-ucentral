@@ -11,47 +11,47 @@ const teamMembers = [
   {
     name: "Raquel Labrin",
     role: "Presidenta",
-    image: "/images/raquel.jpg",
+    image: "/cegeo-ucentral/images/raquel.jpg",
   },
   {
     name: "Víctor Vilches",
     role: "Administrador",
-    image: "/images/victor.jpg",
+    image: "/cegeo-ucentral/images/victor.jpg",
   },
   {
     name: "Renato Labarca",
     role: "Vicepresidente",
-    image: "/images/renato.jpg",
+    image: "/cegeo-ucentral/images/renato.jpg",
   },
   {
     name: "Belén Zepeda",
     role: "Comunicación y Redes Sociales",
-    image: "/images/belen.jpg",
+    image: "/cegeo-ucentral/images/belen.jpg",
   },
   {
     name: "Alondra Moraga",
     role: "Secretaria",
-    image: "/images/alondra.jpg",
+    image: "/cegeo-ucentral/images/alondra.jpg",
   },
   {
     name: "Ángel Fuentes",
     role: "Deportes y Extracurriculares",
-    image: "/images/angel.jpg",
+    image: "/cegeo-ucentral/images/angel.jpg",
   },
   {
     name: "Diego Aguiar",
     role: "Tesorero",
-    image: "/images/diego.jpg",
+    image: "/cegeo-ucentral/images/diego.jpg",
   },
   {
     name: "Javiera Núñez",
     role: "Género y Diversidad",
-    image: "/images/javiera.jpg",
+    image: "/cegeo-ucentral/images/javiera.jpg",
   },
   {
     name: "Vicente Bonilla",
     role: "Vocero",
-    image: "/images/vicente.jpg",
+    image: "/cegeo-ucentral/images/vicente.jpg",
   },
 ];
 
@@ -210,7 +210,7 @@ export default function NuestroProposito() {
           {/* Team photo */}
           <div className="mb-12">
             <Image
-              src="/images/team-group.jpg"
+              src="/cegeo-ucentral/images/team-group.jpg"
               alt="Equipo CEGEO UCENTRAL"
               width={800}
               height={500}

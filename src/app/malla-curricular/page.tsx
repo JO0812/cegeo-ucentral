@@ -38,7 +38,7 @@ export default function MallaCurricular() {
           </h2>
           <div className="bg-white rounded-lg shadow-sm p-4 md:p-6">
             <Image
-              src="/images/malla-2025.jpg"
+              src="/cegeo-ucentral/images/malla-2025.jpg"
               alt="Malla Curricular Geología 2025 - Universidad Central de Chile"
               width={821}
               height={436}
@@ -64,7 +64,7 @@ export default function MallaCurricular() {
           </h2>
           <div className="bg-white rounded-lg shadow-sm p-4 md:p-6">
             <Image
-              src="/images/malla-2017.png"
+              src="/cegeo-ucentral/images/malla-2017.png"
               alt="Malla Curricular Geología 2017 - Universidad Central de Chile"
               width={821}
               height={467}

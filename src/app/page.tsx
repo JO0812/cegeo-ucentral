@@ -52,7 +52,7 @@ export default function Home() {
             </div>
             <div className="flex justify-center">
               <Image
-                src="/images/logo.png"
+                src="/cegeo-ucentral/images/logo.png"
                 alt="Logo CEGEO Universidad Central de Chile"
                 width={322}
                 height={322}
